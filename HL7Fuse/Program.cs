@@ -42,7 +42,7 @@ namespace HL7Fuse
                 string str = string.Empty;
                 if (args == null || args.Length < 1)
                 {
-                    Console.WriteLine("Welcome to HL7Fuse!");
+                    Console.WriteLine("欢迎使用HL7服务!");
                     Console.WriteLine("Please press a key to continue...");
                     Console.WriteLine("-[r]: Run this application as a console application;");
                     Console.WriteLine("-[i]: Install this application as a Windows Service;");
@@ -138,19 +138,19 @@ namespace HL7Fuse
 
         private static void RunAsConsole()
         {
-            Console.WriteLine("Welcome to HL7Fuse!");
+            Console.WriteLine("欢迎使用HL7服务!");
             Program.CheckCanSetConsoleColor();
-            Console.WriteLine("Initializing...");
+            Console.WriteLine("正在初始化...");
             IBootstrap bootstrap = BootstrapFactory.CreateBootstrap();
             if (!bootstrap.Initialize())
             {
                 Program.SetConsoleColor(ConsoleColor.Red);
-                Console.WriteLine("Failed to initialize HL7Fuse! Please check error log for more information!");
+                Console.WriteLine("初始化HL7服务失败! 请检查 error 日志获取更多相关信息!");
                 Console.ReadKey();
             }
             else
             {
-                Console.WriteLine("Starting...");
+                Console.WriteLine("开始运行中...");
 
                 StartResult startResult = bootstrap.Start();
                 Console.WriteLine("-------------------------------------------------------------------");
@@ -177,7 +177,7 @@ namespace HL7Fuse
                         Console.ReadKey();
                         return;
                     case StartResult.Success:
-                        Console.WriteLine("The HL7Fuse has been started!");
+                        Console.WriteLine("HL7服务已经开始运行!");
                         break;
                     case StartResult.PartialSuccess:
                         Program.SetConsoleColor(ConsoleColor.Red);
@@ -185,16 +185,16 @@ namespace HL7Fuse
                         break;
                     case StartResult.Failed:
                         Program.SetConsoleColor(ConsoleColor.Red);
-                        Console.WriteLine("Failed to start the HL7Fuse! Please check error log for more information!");
+                        Console.WriteLine("启动HL7服务失败! 请检查 error日志文件以获取更多详细信息!");
                         Console.ReadKey();
                         return;
                 }
                 Console.ResetColor();
-                Console.WriteLine("Enter key 'quit' to stop the ServiceEngine.");
+                Console.WriteLine("请输入'quit'停止服务！");
                 Program.RegisterCommands();
                 Program.ReadConsoleCommand(bootstrap);
                 bootstrap.Stop();
-                Console.WriteLine("The HL7Fuse has been stopped!");
+                Console.WriteLine("HL7服务已经停止运行!");
             }
         }
 
