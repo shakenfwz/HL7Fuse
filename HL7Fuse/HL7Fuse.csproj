@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HL7Fuse</RootNamespace>
     <AssemblyName>HL7Fuse</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
@@ -54,82 +54,82 @@
     <Reference Include="log4net, Version=1.2.13.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Base, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Base">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Base.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V21, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V21">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V21.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V22, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V22">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V22.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V23, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V23">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V23.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V231, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V231">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V231.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V24, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V24">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V24.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V25, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V25">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V25.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V251, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V251">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V251.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V26, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V26">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V26.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V27, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V27">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V27.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V271, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V271">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V271.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V28, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V28">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V28.dll</HintPath>
     </Reference>
-    <Reference Include="NHapi.Model.V281, Version=2.5.0.6, Culture=neutral, PublicKeyToken=d0d8ea960a3440eb, processorArchitecture=MSIL">
+    <Reference Include="NHapi.Model.V281">
       <HintPath>..\packages\nHapi.2.5.0.6\lib\NHapi.Model.V281.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Base, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Base">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Base.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V21, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V21">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V21.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V22, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V22">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V22.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V23, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V23">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V23.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V231, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V231">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V231.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V24, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V24">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V24.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V25, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V25">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V25.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V251, Version=1.10.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V251">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V251.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V26, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V26">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V26.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V27, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V27">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V27.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V271, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V271">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V271.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V28, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V28">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V28.dll</HintPath>
     </Reference>
-    <Reference Include="NHapiTools.Model.V281, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8cc2ca07deb72b3d, processorArchitecture=MSIL">
+    <Reference Include="NHapiTools.Model.V281">
       <HintPath>..\packages\NHapiTools.1.10.0.0\lib\NHapiTools.Model.V281.dll</HintPath>
     </Reference>
     <Reference Include="SuperSocket.Common, Version=1.6.4.0, Culture=neutral, PublicKeyToken=6c80000676988ebb, processorArchitecture=MSIL">
@@ -213,10 +213,12 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(SolutionDir)packages\nHapi.2.4\lib\*.*" $(TargetDir) /Y
-xcopy "$(SolutionDir)packages\NHapiTools.1.5.0.0\lib\*.*" $(TargetDir) /Y
+    <PostBuildEvent>xcopy "$(SolutionDir)packages\nHapi.2.5.0.6\lib\*.*" $(TargetDir) /Y
+xcopy "$(SolutionDir)packages\NHapiTools.1.10.0.0\lib\*.*" $(TargetDir) /Y
 xcopy "$(SolutionDir)packages\SuperSocket.1.6.4\lib\net45\*.*" $(TargetDir) /Y
+
 md $(TargetDir)Config
+
 md $(TargetDir)Logs
 xcopy "$(SolutionDir)packages\SuperSocket.1.6.4\content\*.*" $(TargetDir)Config /Y</PostBuildEvent>
   </PropertyGroup>
