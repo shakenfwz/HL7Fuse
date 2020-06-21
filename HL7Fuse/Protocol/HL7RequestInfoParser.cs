@@ -9,6 +9,7 @@ using NHapiTools.Base.Parser;
 using NHapiTools.Base.Validation;
 using NHapi.Base.Model;
 using System.Configuration;
+using HL7Fuse.Logging;
 
 namespace HL7Fuse.Protocol
 {
@@ -36,11 +37,13 @@ namespace HL7Fuse.Protocol
         /// <returns></returns>
         public HL7RequestInfo ParseRequestInfo(string message)
         {
+            Logger.Info(message);
             return ParseRequestInfo(message, string.Empty);
         }
 
         public HL7RequestInfo ParseRequestInfo(string message, string protocol)
         {
+            Logger.Info(message);
             HL7RequestInfo result = new HL7RequestInfo();
             PipeParser parser = new PipeParser();
 
